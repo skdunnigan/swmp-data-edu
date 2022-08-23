@@ -1,0 +1,51 @@
+project:
+  type: book
+  output-dir: docs
+  
+book:
+  title: Working with SWMP Data Tools 
+  subtitle: A guide to using R tools developed for working with long-term monitoring data
+  # cover-image:
+  # image: 
+  downloads: [pdf, docx]
+  author:
+    - name: Shannon Dunnigan Kimmel
+      affiliations:
+        - name: Guana Tolomato Matanzas National Estuarine Research Reserve
+  chapters:
+    - index.qmd
+    # - part: 
+    #   chapters:
+    #   - 
+    #   - 
+    # - part: 
+    
+  repo-url: https://github.com/skdunnigan/swmp-data-edu
+  repo-actions: [source, issue]
+  search: true
+
+# bibliography: references.bib
+
+execute:
+  echo: false
+  code-overflow: wrap
+  warning: false
+  error: false
+  
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+    # cover-image: cover.png
+    code-link: true
+  # pdf:
+  #   documentclass: scrbook
+  #   classoption: ["oneside"]
+  #   template-partials: ["partials/before-body.tex"]
+  #   toc: true
+  #   toc-depth: 2
+  #   lof: true
+  #   lot: true
+  #   include-in-header: 
+  #     - partials/inheader.tex
