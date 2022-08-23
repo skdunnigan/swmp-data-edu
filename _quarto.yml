@@ -24,6 +24,12 @@ book:
   repo-actions: [source, issue]
   search: true
 
+  page-footer:
+    left: |
+      Working with SWMP Data Tools was written by Shannon Dunnigan Kimmel.
+    right: |
+      This book was built with <a href="https://quarto.org/">Quarto</a>.
+
 # bibliography: references.bib
 
 execute:
@@ -34,7 +40,7 @@ execute:
   
 format:
   html:
-    theme: cosmo
+    theme: yeti
     toc: true
     toc-depth: 3
     # cover-image: cover.png
