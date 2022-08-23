@@ -6,8 +6,7 @@ book:
   title: Working with SWMP Data Tools 
   subtitle: A guide to using R tools developed for working with long-term monitoring data
   # cover-image:
-  # image: 
-  downloads: [pdf, docx]
+  # downloads: [pdf, docx]
   author:
     - name: Shannon Dunnigan Kimmel
       affiliations:
